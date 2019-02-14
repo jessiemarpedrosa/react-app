@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+  background: #222831;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+h2{
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container{
+  padding: 20px;
+  text-align: center;
+  width: 980px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.post {
+  width: 30%;
+  background: #2e3338;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 10px 10px 30px 10px;
+  vertical-align: text-top;
+  min-height: 320px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: #e2e2e2;
+}
+
+.post h3{
+  font-weight: 500;
+}
+
+.post p{
+  font-weight: 100;
+}
+
+a.readmore {
+  color: white;
+  background: #545454;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  -ms-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out; 
+}
+
+a.readmore:hover{
+  background: #861d1d;
+}
+
+.post .featured_image {
+  max-height: 140px;
+  overflow: hidden;
+}
+
+.featured_image img{
+  width: 100%;
+  height: 140px; 
+  transition: transform .2s;
+}
+
+.featured_image img:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+span.posted_by {
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+  border-top: 1px dashed #484848;
+}
+
+span.posted_by span{
+  color: #9a9a9a;
+}
+
+
+/**************************** Mobile Responsive & Other Platforms ***************************/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+.container{
+  padding: 0;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.post {
+  width: 90%;
+  margin: 0 auto 15px;
+  max-width: 100%;
+}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
